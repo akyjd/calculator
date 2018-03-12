@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="js beginner excersize">
+      <link rel="stylesheet" href="style.css">
+
+      <title></title>
+
+</head>
+
+<body>
+     <div id='calc'>
+      
+      <form>
+       <input type='text' id='display' value="0" disabled>
+      
+       <input type='button' value='C' id='keys' onclick='clearall()'>
+       <input type='button' value='CE' id='keys' onclick='backspace()'>
+       <input type='button' value='+/-' id='keys' onclick='plusminus()'>
+       <input type='button' value='+' id='keys' onclick='addtoscreen("+")'>
+      
+       <input type='button' value='7' id='keys' onclick='addtoscreen("7")'>
+       <input type='button' value='8' id='keys' onclick='addtoscreen("8")'>
+       <input type='button' value='9' id='keys' onclick='addtoscreen("9")'>
+       <input type='button' value='-' id='keys' onclick='addtoscreen("-")'>
+      
+       <input type='button' value='4' id='keys' onclick='addtoscreen("4")'>
+       <input type='button' value='5' id='keys' onclick='addtoscreen("5")'>
+       <input type='button' value='6' id='keys' onclick='addtoscreen("6")'>
+       <input type='button' value='*' id='keys' onclick='addtoscreen("*")'>
+       
+       <input type='button' value='1' id='keys' onclick='addtoscreen("1")'>
+       <input type='button' value='2' id='keys' onclick='addtoscreen("2")'>
+       <input type='button' value='3' id='keys' onclick='addtoscreen("3")'>
+       <input type='button' value='/' id='keys' onclick='addtoscreen("/")'>
+      
+       <input type='button' value='0' id='keys' onclick='addtoscreen("0")'>
+       <input type='button' value='.' id='keys' onclick='addtoscreen(".")'>
+       <input type='button' value='=' id='equal' onclick='answer()'>
+     </form>
+          
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
