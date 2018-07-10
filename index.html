@@ -13,34 +13,43 @@
 </head>
 
 <body>
+  <header class="header">
+    <h1 class="header-title">Basic Calculator</h1>
+    <div class="header-separator"></div>
+    <div class="header-description">Calculator made with HTML, CSS and JavaScript for simple arithmetic operations.</div>
+
+  </header>
+
+
+
      <div id='calc'>
       
       <form>
        <input type='text' id='display' value="0" disabled>
       
-       <input type='button' value='C' id='keys' onclick='clearall()'>
-       <input type='button' value='CE' id='keys' onclick='backspace()'>
-       <input type='button' value='+/-' id='keys' onclick='plusminus()'>
-       <input type='button' value='+' id='keys' onclick='addtoscreen("+")'>
+       <input class="sign" type='button' value='C' id='keys' onclick='clearall()'>
+       <input class="sign" type='button' value='CE' id='keys' onclick='backspace()'>
+       <input class="sign" type='button' value='+/-' id='keys' onclick='plusminus()'>
+       <input class="sign" type='button' value='+' id='keys' onclick='addtoscreen("+")'>
       
        <input type='button' value='7' id='keys' onclick='addtoscreen("7")'>
        <input type='button' value='8' id='keys' onclick='addtoscreen("8")'>
        <input type='button' value='9' id='keys' onclick='addtoscreen("9")'>
-       <input type='button' value='-' id='keys' onclick='addtoscreen("-")'>
+       <input class="sign" type='button' value='-' id='keys' onclick='addtoscreen("-")'>
       
        <input type='button' value='4' id='keys' onclick='addtoscreen("4")'>
        <input type='button' value='5' id='keys' onclick='addtoscreen("5")'>
        <input type='button' value='6' id='keys' onclick='addtoscreen("6")'>
-       <input type='button' value='*' id='keys' onclick='addtoscreen("*")'>
+       <input class="sign" type='button' value='*' id='keys' onclick='addtoscreen("*")'>
        
        <input type='button' value='1' id='keys' onclick='addtoscreen("1")'>
        <input type='button' value='2' id='keys' onclick='addtoscreen("2")'>
        <input type='button' value='3' id='keys' onclick='addtoscreen("3")'>
-       <input type='button' value='/' id='keys' onclick='addtoscreen("/")'>
+       <input class="sign" type='button' value='/' id='keys' onclick='addtoscreen("/")'>
       
        <input type='button' value='0' id='keys' onclick='addtoscreen("0")'>
        <input type='button' value='.' id='keys' onclick='addtoscreen(".")'>
-       <input type='button' value='=' id='equal' onclick='answer()'>
+       <input class="sign" type='button' value='=' id='equal' onclick='answer()'>
      </form>
           
   </div>

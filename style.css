@@ -1,4 +1,5 @@
 body{
+  background-color: #123;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,6 +9,28 @@ body{
 h3{
   color:white;
   font: 16px arial, sans-serif;
+}
+.header-title {
+  margin: 1.5em 0 0.2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.3em;
+  color: #e6f2ff;
+}
+.header-description {
+  max-width: 420px;
+  margin: 1.5em auto 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #b3e6ff;
+}
+.header-separator {
+  margin: 0 auto 1em;
+  width: 200px;
+  height: 2px;
+  background-color: #7f1414;
+  border: none;
 }
 #calc{
   background-color:#7f1414;
@@ -103,6 +126,9 @@ h3{
     height:50px;
     margin-left:5px;
     border-radius:4px;
+}
+.sign{
+  background-color: #999;
 }
 
 .eqn {
